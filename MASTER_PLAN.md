@@ -1,188 +1,230 @@
-# [PROTOCOL NAME] Master Plan
-## The Infrastructure for Verifiable Finance
-
-*Just between you and me*
+# The Lighter Master Plan
+### by Vladimir Novakovski
 
 ---
 
-### We Are Not a Perps Exchange
+## Background
 
-Let me start with something that might surprise you: we are not building a perpetuals exchange.
+I worked at Citadel. Ken Griffin recruited me personally when I was 18.
 
-Yes, we have a perps exchange. Yes, it's growing rapidly. Yes, the volume is insane. But thinking of us as a perps exchange is like thinking Tesla was building sports cars in 2006—technically true, tactically necessary, strategically misleading.
+I saw how the sausage gets made. Order matching that favors the house. Liquidation engines that exist to extract value. "Market making" that's really just a tax on retail traders. The whole system runs on one premise: trust us.
 
-**We are building the infrastructure layer for verifiable finance.**
-
-The perps exchange is our Roadster—proof that zero-knowledge technology can power real financial infrastructure at scale. Proof that trustless systems can compete with (and beat) centralized alternatives. Proof that we can execute.
-
-But the endgame is much bigger.
+I left to build the opposite.
 
 ---
 
-### The Problem We're Solving
+## The Secret Plan (Just Between You and Me)
 
-The global financial system runs on trust, and that trust is broken.
+Build a sports car.
 
-Every financial crisis—2008, SVB, FTX—follows the same pattern: institutions asked you to trust them, you did, and then you discovered the books were cooked, the reserves didn't exist, or the risk models were fantasy.
+That's what Tesla's Master Plan said in 2006. Use the sports car to fund a sedan. Use the sedan to fund a mass-market car. Use all of it to accelerate sustainable energy.
 
-Traditional finance operates on "trust us" accounting. You deposit money and receive a promise. You buy a security and trust the custodian. You use a bank and trust the regulators are watching. But regulators were watching Enron. They were watching Lehman. They were watching FTX.
+They weren't a car company. They were an energy company that happened to start by building cars.
+
+**Lighter is not a perps exchange.**
+
+We're an infrastructure company that happens to start by building a perps exchange.
+
+Here's the plan:
+
+1. **Build a ZK perps exchange.** Prove that trustless order matching works at scale. Zero fees for retail. Millisecond latency. Generate revenue to fund the mission. ✓ DONE
+
+2. **Make it the orderbook for all of Ethereum.** Full composability. Any token as collateral. Every protocol can plug in. Break down the walls between isolated DeFi.
+
+3. **Bridge TradFi and DeFi.** Give banks the infrastructure to prove their reserves cryptographically. Make "trust us" accounting obsolete. Full regulatory compliance, verifiable by math.
+
+4. **Become the infrastructure layer for global finance.** Not just crypto. All of it. Every institution that needs to prove its integrity can use Lighter rails.
+
+---
+
+## Why I'm Telling You This
+
+The communications consultants would say: don't publish your strategy. Don't make promises. Don't let the founder speak unfiltered.
+
+I disagree.
+
+You should know what you're buying into. Not the next feature. Not the next listing. The endgame.
+
+If you're holding LIGHT, building on Lighter, or just following along—you deserve to understand what we're actually building. If you believe in it, stay. If you don't, leave. I'd rather have 10,000 true believers than 100,000 speculators.
+
+---
+
+## The Problem
+
+Every financial crisis follows the same script:
+
+1. Institution says "trust us"
+2. You trust them
+3. Books were cooked / reserves didn't exist / risk models were fantasy
+4. Everyone loses money
+5. Regulators say "we'll do better next time"
+6. Repeat
+
+2008. Lehman. Enron. MF Global. SVB. FTX.
+
+The regulators were watching all of them. They had audits. They had compliance teams. They had the full force of the law.
+
+Didn't matter.
 
 **Trust doesn't scale. Verification does.**
 
-Zero-knowledge proofs change everything. For the first time in history, we can prove facts about financial positions, reserves, and transactions without revealing the underlying data. We can verify without trusting.
+Zero-knowledge proofs let you prove facts about financial positions without revealing the underlying data. For the first time in history, we can verify without trusting.
 
-This isn't just a crypto thesis. This is the future of all finance.
-
----
-
-### The Master Plan
-
-Here's the plan, in order:
-
-**Phase 1: Prove the Technology (COMPLETED)**
-Build a decentralized perpetuals exchange using ZK proofs. Demonstrate that trustless financial infrastructure can work at scale. Generate revenue to fund the mission.
-
-Status: Done. Rapidly growing. Insane volume. The Roadster works.
-
-**Phase 2: Full Ethereum Composability**
-Create a world where any asset can be used as collateral. Connect to the Ethereum ecosystem so that users can seamlessly move between protocols, use any token as margin, and maintain their positions across the DeFi ecosystem.
-
-This breaks down the walls between isolated protocols and creates a unified, composable financial layer.
-
-**Phase 3: Bridge TradFi and DeFi**
-Build the infrastructure that allows traditional financial institutions to interact with decentralized systems—with full regulatory compliance and complete verifiability.
-
-This isn't about crypto replacing banks. It's about giving banks (and their customers) the ability to verify rather than trust. Imagine pension funds that can prove their reserves in real-time. Imagine audits that happen continuously, cryptographically, automatically.
-
-**Phase 4: Global Verifiable Finance**
-Become the infrastructure layer that powers transparent, trustless finance worldwide. Not just for crypto natives—for everyone who needs to know that financial institutions are doing what they claim.
+This isn't just a crypto thing. This is the future of all finance.
 
 ---
 
-### Why This Sequence Matters
+## Where We Are Now
 
-We're following the Tesla playbook:
+**Phase 1: COMPLETE**
 
-1. **Start high-margin to fund the mission.** Tesla started with the Roadster—expensive, limited market, but it proved the technology and generated capital. Our perps exchange is the Roadster. High margin, proving ground, funding source.
+- $164 billion in trading volume (September 2025)
+- Fourth largest L2 trading platform on Ethereum
+- Highest throughput in the category
+- Zero fees for retail traders
+- Already profitable
+- $68M raised at $1.5B valuation from Founders Fund, Ribbit, a16z, Paradigm, Robinhood
+- 50% of tokens to the community
 
-2. **Expand capability with each phase.** Each step unlocks the next. Tesla couldn't have built the Model 3 factory without the cash from Model S and X. We can't bridge TradFi without first demonstrating composability. We can't achieve regulatory approval without first proving we can work within frameworks.
-
-3. **The endgame funds everything.** If we achieve even two of our three major milestones—full composability, TradFi bridge, or US regulatory approval—we have a 100-200x markup on where we are today. That's not hope. That's math.
+The Roadster works. Time to build the Model S.
 
 ---
 
-### The Three 10x Milestones
+## The Three 10x Milestones
 
-**Milestone 1: Full Composability with Ethereum**
-- Any currency as collateral
-- Seamless cross-protocol positions
-- Unified DeFi experience
-- Unlocks billions in capital efficiency
+Any one of these is transformative. Two together is category-defining. All three means we're processing trillions.
 
-**Milestone 2: TradFi-DeFi Bridge**
-- Institutional-grade infrastructure
+### Milestone 1: Full Ethereum Composability
+
+The orderbook for all of Ethereum.
+
+- Any token as collateral
+- Cross-protocol positions
+- Every DeFi protocol can plug in
+- Unified liquidity layer
+
+Currently, every protocol is an island. Users fragment their capital. Liquidity is siloed. We're building the bridges.
+
+### Milestone 2: TradFi-DeFi Bridge
+
+Give institutions ZK superpowers.
+
 - Real-time verifiable reserves
 - Continuous cryptographic audits
-- The rails for compliant DeFi adoption
+- Compliant by construction
+- Proof of solvency without revealing positions
 
-**Milestone 3: US Regulatory Approval**
-- Legitimizes the entire ecosystem
+Banks don't need to "believe in crypto." Banks need to prove they're solvent. We give them the tools.
+
+### Milestone 3: US Regulatory Approval
+
+Legitimize the infrastructure.
+
 - Opens the largest capital market in the world
-- Creates a template for global regulatory frameworks
+- Creates the regulatory template for global adoption
 - Separates us from the "move fast and ignore rules" crowd
+- Our ZK architecture is built for compliance—we can prove adherence without exposing user data
 
-Each milestone independently creates massive value. Any two together create a category-defining company. All three create infrastructure that will process trillions.
-
----
-
-### What We're NOT Doing
-
-Let's be clear about what we're not building:
-
-- **We're not building another casino.** The perps market is a means to an end, not the end itself.
-- **We're not trying to replace banks.** We're giving banks superpowers—the ability to prove their integrity cryptographically.
-- **We're not promising returns.** We're building infrastructure. The value of that infrastructure will be determined by the market.
-- **We're not asking you to trust us.** The whole point is that you shouldn't have to. Everything we build is verifiable.
+Regulation is a moat, not a threat.
 
 ---
 
-### The FUD, Addressed
+## Why This Sequence
 
-*"You're just another crypto project pumping a token."*
+Tesla couldn't build the Model 3 factory without cash from Model S.
 
-Look at what we've built. Look at the volume. Look at the technology. This isn't a whitepaper and a dream—it's working infrastructure processing real transactions. The token exists to align incentives in a decentralized system, not to create artificial scarcity.
+We can't bridge TradFi without first proving composability works. We can't get regulatory approval without first proving we can work within frameworks. Each phase funds and enables the next.
 
-*"The perps market is saturated."*
+The perps exchange is profitable. It funds everything else.
 
-The perps market is a beachhead, not the destination. Saying we're competing in perps is like saying Tesla was competing with Porsche. Technically true. Strategically irrelevant.
+---
+
+## What We're NOT Building
+
+Let me be direct about what Lighter is not:
+
+**We're not building a casino.** The perps market is a means to an end. Yes, traders trade. Yes, we facilitate it. But the mission is infrastructure, not gambling.
+
+**We're not replacing banks.** We're giving banks superpowers. The ability to prove integrity cryptographically is valuable whether you're a DeFi degen or a pension fund manager.
+
+**We're not promising returns.** I'm telling you what we're building. The market will decide what it's worth.
+
+**We're not asking you to trust us.** The entire point of ZK proofs is that you don't have to. Every order match is cryptographically verifiable. Every liquidation is provable. The Escape Hatch lets you withdraw even if Lighter disappears.
+
+---
+
+## The FUD, Addressed
+
+*"You're just another perps DEX."*
+
+$164B monthly volume. Profitable. Highest TPS. Backed by the smartest money in the world. And we're just getting started. Saying we're "just a perps DEX" is like saying Tesla was "just making electric sports cars" in 2008.
+
+*"Perps market is saturated."*
+
+The perps market is a beachhead, not the destination. We're competing in perps like Tesla was competing with Porsche. Technically accurate. Strategically irrelevant.
 
 *"Regulation will kill you."*
 
-Regulation will kill projects that can't adapt. We're building explicitly toward compliance. Our ZK architecture allows us to provide regulators with verifiable proof of compliance without exposing user data. Regulation is a moat for us, not a threat.
+Regulation will kill projects that can't adapt. Our ZK architecture was designed for compliance from day one. We can prove adherence without exposing user data. Regulation is our competitive advantage.
 
-*"TradFi will never adopt crypto."*
+*"TradFi will never touch this."*
 
-TradFi doesn't need to adopt crypto. TradFi needs verifiable accounting. We're not asking them to believe in decentralization—we're giving them tools to prove their integrity. That's a value proposition, not an ideology.
-
----
-
-### The Timeline
-
-We don't give specific dates because reality doesn't follow roadmaps. What we can tell you:
-
-- **Phase 1** is complete and scaling
-- **Phase 2** is in active development
-- **Phase 3** requires regulatory groundwork happening now
-- **Phase 4** is the decade-long mission
-
-We're playing the long game. Not because we're slow—because we're building foundations that will outlast us.
+TradFi doesn't need to adopt crypto ideology. TradFi needs verifiable accounting. We're selling them tools, not asking them to join a movement.
 
 ---
 
-### Why We're Telling You This
+## The Timeline
 
-The old communications playbook would say: keep your strategy secret. Don't tip off competitors. Don't make promises you might not keep.
+I don't give dates. Reality doesn't follow roadmaps.
 
-We disagree.
+What I can tell you:
 
-We're telling you this because:
+- Phase 1 is complete and scaling
+- Phase 2 is in active development
+- Phase 3 requires regulatory groundwork (happening now)
+- Phase 4 is the decade-long mission
 
-1. **Critical technology needs believers.** We need the best engineers, the best partners, the best community. They need to know what they're building toward.
-
-2. **Our technology is our moat.** Knowing what we're building doesn't mean you can build it. ZK systems are hard. Our team is exceptional. Our lead is substantial.
-
-3. **Transparency builds trust (ironically).** We're a company building trustless infrastructure. The least we can do is be transparent about our intentions.
-
-4. **You deserve to know.** If you're holding our token, building on our platform, or investing your time in our community, you deserve to understand the vision—not just the next feature release.
+We're playing the long game. Not because we're slow—our TPS proves otherwise—but because we're building foundations.
 
 ---
 
-### The Ask
+## The Ask
 
-We're not asking you to pump our token. We're not asking you to spread hopium.
+I'm not asking you to pump the token.
 
-We're asking you to understand what we're building and decide if you believe in it.
+I'm not asking you to spread hopium.
 
-If you do: join us. Build with us. Hold through the volatility because you understand the destination.
+I'm asking you to understand what we're building and decide if you believe in it.
 
-If you don't: that's fine. We'd rather have a smaller community of true believers than a larger community of speculators.
+If you do: hold through the volatility. Build with us. Tell others who should know.
 
----
+If you don't: that's fine. Better to know now.
 
-### Conclusion
+The financial system is broken because it runs on trust, and trust is a single point of failure. We're building the alternative.
 
-The financial system is broken because it's built on trust, and trust doesn't scale.
-
-We're building infrastructure where verification replaces trust. Where institutions can prove their integrity cryptographically. Where the next financial crisis gets caught by math, not discovered by journalists after the fact.
-
-The perps exchange is the beginning, not the end.
-
-The token is aligned incentives, not the product.
-
-The mission is verifiable finance for the world.
-
-Welcome to the plan.
+Welcome to Lighter.
 
 ---
+
+*— Vlad*
 
 *This document will be updated as we hit milestones. No edits to core thesis—only additions reflecting progress.*
+
+---
+
+## Appendix: The Math
+
+If we achieve 2 of our 3 major milestones:
+
+**Composability + Regulatory Approval:**
+Opens US market + unified Ethereum liquidity = conservative 100x from current
+
+**TradFi Bridge + Regulatory Approval:**
+Institutional adoption + legal clarity = 100-200x from current
+
+**Composability + TradFi Bridge:**
+DeFi infrastructure + institutional rails = 100-200x from current
+
+All three? We're the SWIFT of verifiable finance.
+
+This isn't hopium. This is the thesis. Believe it or don't.

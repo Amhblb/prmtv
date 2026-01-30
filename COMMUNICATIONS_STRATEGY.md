@@ -1,5 +1,5 @@
-# Communications Strategy Playbook
-## Applying the "Go Direct" Framework to [Protocol Name]
+# Lighter Communications Strategy Playbook
+## Applying the "Go Direct" Framework
 
 ---
 
@@ -529,28 +529,34 @@ Onward.
 
 ---
 
-## Appendix A: Key Messages Cheat Sheet
+## Appendix A: Vlad's Key Messages Cheat Sheet
 
-**What we are:**
-> The infrastructure layer for verifiable finance. We're building tools that let financial institutions prove their integrity cryptographically.
+**What Lighter is:**
+> The infrastructure layer for verifiable finance. The orderbook for all of Ethereum. We're building tools that let financial institutions prove their integrity cryptographically.
 
-**What we're not:**
-> Just a perps DEX. The exchange is our beachhead—proof that trustless systems work. The mission is bigger.
+**What Lighter is NOT:**
+> Just a perps DEX. $164B monthly volume is proof of concept, not the product. The exchange funds the mission. The mission is verifiable finance.
 
-**Why tokens:**
-> Aligned incentives in a decentralized system. Not artificial scarcity.
+**Why LIGHT exists:**
+> Aligned incentives in a decentralized system. 50% to community. Not artificial scarcity—coordination mechanism.
 
 **On price volatility:**
-> Markets are volatile. Our mission isn't. We're building for the decade.
+> Markets do what markets do. We do what builders do. $164B volume. Profitable. Highest TPS. Heads down.
 
 **On regulation:**
-> Regulation is a moat, not a threat. We're building explicitly toward compliance.
+> Regulation is a moat, not a threat. Our ZK architecture was designed for compliance from day one. We can prove adherence without exposing user data.
 
 **On TradFi:**
-> We're not asking banks to believe in decentralization. We're giving them tools to prove their integrity.
+> Banks don't need to adopt crypto ideology. Banks need to prove they're solvent. We give them the tools.
 
 **On timeline:**
-> We ship when confident, not when hopeful. The milestones are clear; the dates are earned.
+> I don't give dates. Reality doesn't follow roadmaps. But Phase 1 is done and profitable. Judge us by what we've shipped.
+
+**On FUD:**
+> If you think we're "just another perps DEX," you think Tesla was "just making electric sports cars." Technically accurate. Strategically irrelevant.
+
+**On the team:**
+> I was recruited by Ken Griffin at 18. Our team includes the best ZK engineers in the world. We're not figuring this out—we've done it before.
 
 ---
 
