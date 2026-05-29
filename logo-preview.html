@@ -3,15 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <title>Moirai — Logo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     :root { --ink: #0A0A0A; --paper: #FAF8F4; --night: #0F1B3D; --gold: #C4A961; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
       background: var(--paper);
       color: var(--ink);
     }
@@ -21,10 +18,10 @@
     }
     header h1 {
       margin: 0;
-      font-family: 'Fraunces', serif;
       font-weight: 300;
-      font-size: 28px;
-      letter-spacing: 8px;
+      font-size: 14px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
     }
     header p {
       margin: 8px 0 0;
@@ -60,59 +57,24 @@
       opacity: 0.5;
     }
 
-    .mark { display: block; }
-    .mark.sm { width: 48px; height: 48px; }
-    .mark.md { width: 96px; height: 96px; }
-    .mark.lg { width: 200px; height: 200px; }
-
-    /* Wordmark — the new refined treatment */
-    .wordmark {
-      font-family: 'Fraunces', serif;
-      font-weight: 300;
-      font-size: 38px;
-      letter-spacing: 14px;
-      font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 0;
-      /* Compensate for trailing letter-spacing */
-      padding-left: 14px;
-      margin-right: -14px;
-    }
-    .wordmark.sm { font-size: 26px; letter-spacing: 10px; padding-left: 10px; margin-right: -10px; }
-
-    .lockup {
-      display: flex;
-      align-items: center;
-      gap: 28px;
-    }
-    .lockup .divider {
-      width: 1px;
-      height: 56px;
-      background: currentColor;
-      opacity: 0.22;
-    }
-    .lockup .divider.tall { height: 72px; }
-
-    footer {
-      padding: 28px 64px;
-      font-family: 'Inter', sans-serif;
-      font-size: 11px;
-      color: #6B6B6B;
-      border-top: 1px solid #e6e2d8;
-      letter-spacing: 1.5px;
-      line-height: 1.7;
-    }
+    .lockup-svg { width: 80%; max-width: 520px; height: auto; }
+    .lockup-svg.lg { max-width: 640px; }
+    .mark-svg { display: block; }
+    .mark-svg.lg { width: 200px; height: 200px; }
+    .mark-svg.md { width: 96px; height: 96px; }
   </style>
 </head>
 <body>
   <header>
-    <h1>MOIRAI</h1>
-    <p>Logo system &middot; refined wordmark</p>
+    <h1>MOIRAI &middot; LOGO</h1>
+    <p>Wordmark drawn as spun threads &mdash; same stroke language as the mark</p>
   </header>
 
   <div class="grid">
 
     <!-- Mark, light -->
     <div class="tile">
-      <svg class="mark lg" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="mark-svg lg" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
         <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
         <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
@@ -123,7 +85,7 @@
 
     <!-- Mark, dark -->
     <div class="tile dark">
-      <svg class="mark lg" viewBox="0 0 100 100" fill="none" stroke="#FAF8F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="mark-svg lg" viewBox="0 0 100 100" fill="none" stroke="#FAF8F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
         <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
         <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
@@ -134,44 +96,73 @@
 
     <!-- Primary lockup, light -->
     <div class="tile">
-      <div class="lockup">
-        <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="lockup-svg lg" viewBox="0 0 540 100" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(8, 8)" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
           <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
           <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
           <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
-        </svg>
-        <div class="divider"></div>
-        <div class="wordmark">MOIRAI</div>
-      </div>
+        </g>
+        <line x1="118" y1="22" x2="118" y2="78" stroke="#0A0A0A" stroke-width="0.6" opacity="0.25" />
+        <g transform="translate(148, 18)" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M 2 64 C 2 40, 2 14, 4 4 C 14 22, 22 38, 30 50 C 38 38, 46 22, 56 4 C 58 14, 58 40, 58 64" />
+          <ellipse cx="108" cy="34" rx="24" ry="30" />
+          <path d="M 162 4 L 162 64" />
+          <path d="M 198 64 L 198 4 L 224 4 C 244 4, 244 32, 224 32 L 198 32" />
+          <path d="M 218 32 L 246 64" />
+          <path d="M 280 64 C 286 46, 296 22, 306 4 C 316 22, 326 46, 332 64" />
+          <path d="M 291 42 L 321 42" />
+          <path d="M 366 4 L 366 64" />
+        </g>
+      </svg>
       <div class="label">Primary Lockup</div>
     </div>
 
     <!-- Lockup, night + gold -->
     <div class="tile night">
-      <div class="lockup">
-        <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#C4A961" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="lockup-svg lg" viewBox="0 0 540 100" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(8, 8)" fill="none" stroke="#C4A961" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
           <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
           <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
           <circle cx="50" cy="68" r="1.4" fill="#C4A961" stroke="none" />
-        </svg>
-        <div class="divider" style="background:#C4A961; opacity:0.5"></div>
-        <div class="wordmark" style="color:#FAF8F4">MOIRAI</div>
-      </div>
+        </g>
+        <line x1="118" y1="22" x2="118" y2="78" stroke="#C4A961" stroke-width="0.6" opacity="0.5" />
+        <g transform="translate(148, 18)" fill="none" stroke="#FAF8F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M 2 64 C 2 40, 2 14, 4 4 C 14 22, 22 38, 30 50 C 38 38, 46 22, 56 4 C 58 14, 58 40, 58 64" />
+          <ellipse cx="108" cy="34" rx="24" ry="30" />
+          <path d="M 162 4 L 162 64" />
+          <path d="M 198 64 L 198 4 L 224 4 C 244 4, 244 32, 224 32 L 198 32" />
+          <path d="M 218 32 L 246 64" />
+          <path d="M 280 64 C 286 46, 296 22, 306 4 C 316 22, 326 46, 332 64" />
+          <path d="M 291 42 L 321 42" />
+          <path d="M 366 4 L 366 64" />
+        </g>
+      </svg>
       <div class="label">Editorial &middot; Night + Gold</div>
     </div>
 
     <!-- Stacked lockup -->
     <div class="tile">
-      <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <svg class="mark-svg md" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
         <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
         <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
         <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
       </svg>
       <div style="height: 28px"></div>
-      <div class="wordmark sm">MOIRAI</div>
+      <svg style="width: 280px; height: auto;" viewBox="0 0 400 70" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(2, 2)">
+          <path d="M 2 64 C 2 40, 2 14, 4 4 C 14 22, 22 38, 30 50 C 38 38, 46 22, 56 4 C 58 14, 58 40, 58 64" />
+          <ellipse cx="108" cy="34" rx="24" ry="30" />
+          <path d="M 162 4 L 162 64" />
+          <path d="M 198 64 L 198 4 L 224 4 C 244 4, 244 32, 224 32 L 198 32" />
+          <path d="M 218 32 L 246 64" />
+          <path d="M 280 64 C 286 46, 296 22, 306 4 C 316 22, 326 46, 332 64" />
+          <path d="M 291 42 L 321 42" />
+          <path d="M 366 4 L 366 64" />
+        </g>
+      </svg>
       <div class="label">Stacked &middot; for vertical contexts</div>
     </div>
 
@@ -189,10 +180,5 @@
     </div>
 
   </div>
-
-  <footer>
-    Wordmark &middot; Fraunces 300 (high-opsz), uppercase, 14px tracking &mdash; production fallbacks: GT Sectra, Tiempos Headline, Editorial New<br/>
-    Palette &middot; Ink #0A0A0A &middot; Paper #FAF8F4 &middot; Night #0F1B3D &middot; Gold #C4A961
-  </footer>
 </body>
 </html>
