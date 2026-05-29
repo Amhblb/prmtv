@@ -3,21 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <title>Moirai — Logo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
     :root { --ink: #0A0A0A; --paper: #FAF8F4; --night: #0F1B3D; --gold: #C4A961; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--paper);
       color: var(--ink);
     }
     header {
-      padding: 48px 64px 24px;
+      padding: 56px 64px 28px;
       border-bottom: 1px solid #e6e2d8;
     }
-    header h1 { margin: 0; font-weight: 400; font-size: 22px; letter-spacing: 2px; }
-    header p { margin: 6px 0 0; color: #6B6B6B; font-size: 14px; font-style: italic; }
+    header h1 {
+      margin: 0;
+      font-family: 'Fraunces', serif;
+      font-weight: 300;
+      font-size: 28px;
+      letter-spacing: 8px;
+    }
+    header p {
+      margin: 8px 0 0;
+      color: #6B6B6B;
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
 
     .grid {
       display: grid;
@@ -27,65 +41,76 @@
     }
     .tile {
       background: var(--paper);
-      padding: 64px;
+      padding: 72px 64px;
       min-height: 320px;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      position: relative;
     }
-    .tile.dark { background: var(--ink); color: #FAF8F4; }
+    .tile.dark  { background: var(--ink);   color: #FAF8F4; }
     .tile.night { background: var(--night); color: #FAF8F4; }
-    .tile.gold { background: var(--paper); }
 
     .label {
-      margin-top: 36px;
-      font-size: 11px;
+      margin-top: 40px;
+      font-size: 10px;
       letter-spacing: 3px;
       text-transform: uppercase;
-      opacity: 0.55;
+      opacity: 0.5;
     }
 
-    /* Shared mark styles */
     .mark { display: block; }
-    .mark.sm { width: 56px; height: 56px; }
-    .mark.md { width: 120px; height: 120px; }
+    .mark.sm { width: 48px; height: 48px; }
+    .mark.md { width: 96px; height: 96px; }
     .mark.lg { width: 200px; height: 200px; }
 
+    /* Wordmark — the new refined treatment */
     .wordmark {
-      font-size: 56px;
-      letter-spacing: 4px;
-      font-weight: 400;
+      font-family: 'Fraunces', serif;
+      font-weight: 300;
+      font-size: 38px;
+      letter-spacing: 14px;
+      font-variation-settings: "opsz" 144, "SOFT" 0, "WONK" 0;
+      /* Compensate for trailing letter-spacing */
+      padding-left: 14px;
+      margin-right: -14px;
     }
-    .tagline {
-      margin-top: 4px;
-      font-size: 10px;
-      letter-spacing: 5px;
-      font-style: italic;
-      opacity: 0.6;
-    }
+    .wordmark.sm { font-size: 26px; letter-spacing: 10px; padding-left: 10px; margin-right: -10px; }
 
-    .lockup { display: flex; align-items: center; gap: 20px; }
-    .lockup .stack { display: flex; flex-direction: column; align-items: flex-start; }
+    .lockup {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .lockup .divider {
+      width: 1px;
+      height: 56px;
+      background: currentColor;
+      opacity: 0.22;
+    }
+    .lockup .divider.tall { height: 72px; }
 
     footer {
-      padding: 32px 64px;
-      font-size: 12px;
+      padding: 28px 64px;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
       color: #6B6B6B;
       border-top: 1px solid #e6e2d8;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
+      line-height: 1.7;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>MOIRAI</h1>
-    <p>Logo system — mark, lockup, and color treatments</p>
+    <p>Logo system &middot; refined wordmark</p>
   </header>
 
   <div class="grid">
 
-    <!-- Light mark -->
+    <!-- Mark, light -->
     <div class="tile">
       <svg class="mark lg" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
@@ -93,10 +118,10 @@
         <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
         <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
       </svg>
-      <div class="label">The Mark — Three Threads</div>
+      <div class="label">The Mark</div>
     </div>
 
-    <!-- Dark mark -->
+    <!-- Mark, dark -->
     <div class="tile dark">
       <svg class="mark lg" viewBox="0 0 100 100" fill="none" stroke="#FAF8F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
@@ -104,10 +129,10 @@
         <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
         <circle cx="50" cy="68" r="1.4" fill="#FAF8F4" stroke="none" />
       </svg>
-      <div class="label">Inverted — for dark surfaces</div>
+      <div class="label">Inverted</div>
     </div>
 
-    <!-- Full lockup, light -->
+    <!-- Primary lockup, light -->
     <div class="tile">
       <div class="lockup">
         <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -116,15 +141,13 @@
           <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
           <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
         </svg>
-        <div class="stack">
-          <div class="wordmark">moirai</div>
-          <div class="tagline">THE STORY CONTINUES</div>
-        </div>
+        <div class="divider"></div>
+        <div class="wordmark">MOIRAI</div>
       </div>
       <div class="label">Primary Lockup</div>
     </div>
 
-    <!-- Lockup on night -->
+    <!-- Lockup, night + gold -->
     <div class="tile night">
       <div class="lockup">
         <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#C4A961" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -133,47 +156,28 @@
           <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
           <circle cx="50" cy="68" r="1.4" fill="#C4A961" stroke="none" />
         </svg>
-        <div class="stack">
-          <div class="wordmark" style="color:#FAF8F4">moirai</div>
-          <div class="tagline" style="color:#C4A961; opacity:1">THE STORY CONTINUES</div>
-        </div>
+        <div class="divider" style="background:#C4A961; opacity:0.5"></div>
+        <div class="wordmark" style="color:#FAF8F4">MOIRAI</div>
       </div>
-      <div class="label">Editorial — Night + Gold</div>
+      <div class="label">Editorial &middot; Night + Gold</div>
     </div>
 
-    <!-- Favicon sizes -->
-    <div class="tile" style="flex-direction:row; gap:32px; align-items:flex-end; justify-content:center;">
-      <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-        <svg class="mark" style="width:16px;height:16px;" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
-          <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
-          <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
-        </svg>
-        <div class="label" style="margin:0">16</div>
-      </div>
-      <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-        <svg class="mark" style="width:32px;height:32px;" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
-          <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
-          <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
-        </svg>
-        <div class="label" style="margin:0">32</div>
-      </div>
-      <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-        <svg class="mark sm" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
-          <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
-          <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
-          <circle cx="50" cy="68" r="2" fill="#0A0A0A" stroke="none" />
-        </svg>
-        <div class="label" style="margin:0">56</div>
-      </div>
-      <div style="position:absolute; margin-top:140px; font-size:11px; letter-spacing:3px; text-transform:uppercase; opacity:0.55;">Favicon Scaling</div>
-    </div>
-
-    <!-- App icon style -->
+    <!-- Stacked lockup -->
     <div class="tile">
-      <div style="width:200px; height:200px; border-radius:44px; background:#0A0A0A; display:flex; align-items:center; justify-content:center; box-shadow:0 20px 40px rgba(0,0,0,0.12);">
+      <svg class="mark md" viewBox="0 0 100 100" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
+        <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
+        <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
+        <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
+      </svg>
+      <div style="height: 28px"></div>
+      <div class="wordmark sm">MOIRAI</div>
+      <div class="label">Stacked &middot; for vertical contexts</div>
+    </div>
+
+    <!-- App icon -->
+    <div class="tile">
+      <div style="width:200px; height:200px; border-radius:44px; background:#0A0A0A; display:flex; align-items:center; justify-content:center; box-shadow:0 24px 48px rgba(0,0,0,0.15);">
         <svg style="width:120px;height:120px;" viewBox="0 0 100 100" fill="none" stroke="#C4A961" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
           <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
@@ -183,11 +187,12 @@
       </div>
       <div class="label">App Icon</div>
     </div>
+
   </div>
 
   <footer>
-    Palette — Ink #0A0A0A · Paper #FAF8F4 · Night #0F1B3D · Gold #C4A961 &nbsp;|&nbsp;
-    Wordmark — Georgia (production: GT Sectra or Tiempos Headline)
+    Wordmark &middot; Fraunces 300 (high-opsz), uppercase, 14px tracking &mdash; production fallbacks: GT Sectra, Tiempos Headline, Editorial New<br/>
+    Palette &middot; Ink #0A0A0A &middot; Paper #FAF8F4 &middot; Night #0F1B3D &middot; Gold #C4A961
   </footer>
 </body>
 </html>

@@ -1,25 +1,20 @@
-<svg viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 440 100" xmlns="http://www.w3.org/2000/svg">
   <!-- Mark -->
-  <g transform="translate(15, 8)" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(8, 8)" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
     <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
     <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
     <circle cx="50" cy="68" r="1.4" fill="#0A0A0A" stroke="none" />
   </g>
 
-  <!-- Wordmark -->
-  <text x="125" y="72"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="46"
-        font-weight="400"
-        letter-spacing="3"
-        fill="#0A0A0A">moirai</text>
+  <!-- Hairline separator -->
+  <line x1="118" y1="30" x2="118" y2="70" stroke="#0A0A0A" stroke-width="0.6" opacity="0.25" />
 
-  <!-- Tagline -->
-  <text x="127" y="92"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="9"
-        font-style="italic"
-        letter-spacing="4"
-        fill="#6B6B6B">THE STORY CONTINUES</text>
+  <!-- Wordmark -->
+  <text x="140" y="62"
+        font-family="'Fraunces', 'GT Sectra', 'Tiempos Headline', 'Editorial New', 'Bodoni 72', 'Didot', 'Times New Roman', serif"
+        font-size="30"
+        font-weight="300"
+        letter-spacing="11"
+        fill="#0A0A0A">MOIRAI</text>
 </svg>
