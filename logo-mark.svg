@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Thread 1: rises from bottom-left, peaks, descends past center -->
+  <path d="M 18 84 C 20 60, 24 36, 32 14 C 38 38, 44 58, 50 68" />
+
+  <!-- Thread 2: rises from bottom-center-left, weaves through valley -->
+  <path d="M 32 14 C 38 38, 44 58, 50 68 C 56 58, 62 38, 68 14" />
+
+  <!-- Thread 3: descends from second peak to bottom-right -->
+  <path d="M 50 68 C 56 58, 62 38, 68 14 C 76 36, 80 60, 82 84" />
+
+  <!-- Subtle convergence point at the valley (the "spun" knot) -->
+  <circle cx="50" cy="68" r="1.4" fill="currentColor" stroke="none" />
+</svg>
